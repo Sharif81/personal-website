@@ -1,0 +1,47 @@
+body {
+
+ font-family: 'Reggae One', cursive;
+ margin: 0px;
+ padding: 0px;
+
+}
+.half-width {
+    float: left;
+    width: 40%;
+    margin: 3%;
+    padding: 2%;
+
+}
+
+.half-width img {
+
+    width: 100%;
+}
+
+.highlight {
+    color: tomato;
+}
+
+.Button-highlight {
+    text-decoration: none;
+    color: white;
+    background-color: tomato;
+    padding: 2px 7px 2px 7px;
+}
+
+.header-area {
+    background-image: url(images/header-bg.png);
+   
+}
+
+section {
+
+    height: 600px;
+    background: no-repeat;
+    background-position: center;
+}
+
+.text-highlight {
+
+    color: gray;
+}
