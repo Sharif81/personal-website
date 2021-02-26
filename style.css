@@ -31,12 +31,12 @@ body {
 
 .header-area {
     background-image: url(images/header-bg.png);
-   
+    height: 700px;
+    
 }
 
 section {
 
-    height: 600px;
     background: no-repeat;
     background-position: center;
 }
@@ -44,4 +44,70 @@ section {
 .text-highlight {
 
     color: gray;
+}
+
+.biography-area {
+    background-image: url(images/biography-bg.png);
+    height: 800px;
+}
+
+.biography-text {
+    margin-top: 150px;
+}
+
+.work-images {
+
+    float: left;
+    width: 25%;
+    height: auto;
+    text-align: center;
+    margin: 2%; 
+    padding: 2%;
+    border: 1px solid gray;
+    box-shadow: 5px 10px gray;
+    border-radius: 20px;
+}
+
+.work-images img {
+
+    width: 100%;
+}
+
+.work-area {
+    background-image: url(images/latest-work-bg.png);
+    height: 600px;
+    margin-top: 100px;
+    text-align: center;
+    
+}
+
+.client-area {
+   
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+}
+
+.client-images {
+    background-image: url(images/footer-bg.png);
+    height: auto;
+}
+
+#email-highlight{
+
+    background-color: tomato;
+    color: white;
+    width: 50%;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 25%;
+    padding: 1%;
+     
+}
+
+footer {
+
+    text-align: center;
+    margin-top: 10%;
+    
 }
